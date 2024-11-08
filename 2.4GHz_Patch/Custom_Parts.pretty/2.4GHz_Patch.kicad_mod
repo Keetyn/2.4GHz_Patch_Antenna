@@ -1,0 +1,126 @@
+(footprint "2.4GHz_Patch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.03 -9.02 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8dfa7ccc-23fa-4a89-afd0-92e1592d6796")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2.4GHz_Patch"
+		(at 0.03 -7.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eadb8974-8472-441e-b334-4d0ff4c87186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.03 -8.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6863e1-71c2-419e-95d7-ee5f140d67e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.03 -8.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "658dbf30-66f0-4372-b02e-6d4669028357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.03 -8.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d0cd3a-c371-4c72-8a50-fb7947cb4425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -29.782 17.4068)
+		(end 0 20.1852)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "f5060606-f18c-4cb6-8174-15fa472f1bbb")
+	)
+	(fp_rect
+		(start -7.7216 0)
+		(end 0 14.9068)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "4e4040ce-7c48-4217-9059-fe5bf10a4e72")
+	)
+	(fp_rect
+		(start -7.7216 22.6852)
+		(end 0 37.592)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "d0a444cb-f490-45c5-8264-ddc31234dd81")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 20.2184 37.592)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "64f96606-5b1a-4032-9909-16919e3750cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.03 -6.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6163fdb5-48eb-4d3e-b147-fda4af7d0529")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
